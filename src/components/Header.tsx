@@ -40,10 +40,10 @@ export default Header
 
 const Nav = styled.nav`
     height: 70px;
-    background:#090b13;
     display: flex;
     align-items: center;
     padding: 0 36px;
+    overflow-x: hidden;
 `;
 
 const Logo = styled.img`
@@ -60,7 +60,6 @@ const NavMenu = styled.nav`
         display: flex;
         align-items: center;
         padding: 0 12px;
-        cursor: pointer;
         text-decoration: none;
         color: inherit;
 
