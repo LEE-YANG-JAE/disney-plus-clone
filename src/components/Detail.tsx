@@ -63,6 +63,8 @@ const Background = styled.div`
 const ImageTitle = styled.div`
     height: 30vh;
     width: 35vw;
+    width: 35vw;
+    max-width: 500px;
 
     img {
         width: 100%;
